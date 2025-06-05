@@ -1,0 +1,67 @@
+\documentclass[11pt]{article}
+\usepackage{amsfonts,amssymb,amsmath}
+\usepackage{float} % <-- Needed for [H] placement specifier in table
+\begin{document}
+
+Arrays and table
+
+Epsilon in --- $\in$
+
+$\mathbb{R}$ for the set of real numbers\\
+
+$[a]$ for square brackets\\
+
+$\{ \}$ for curly brackets — use `\` before both\\
+
+$\$50$ to display a dollar symbol\\
+
+Always wrap big expressions with `left` and `right` for auto-sized brackets\\
+
+\[
+\left( \frac{a + b}{c + d} \right)
+\]
+
+We use `left.` or `right.` if we don't want the other one to be shown\\
+
+\[
+\left. \frac{dy}{dx} \right|_{x=1}
+\]
+
+\begin{table}[H]
+\centering % for centering the table
+\caption{Hell yeah table}
+\def\arraystretch{1.2}  
+\begin{tabular}{|c|p{11cm}|c|c|} \hline % c means centered; repeat for each column p means paragraph
+x & o hell nah & 23 & 25 \\ \hline
+x & o hell nah & 23 & 25 \\ \hline
+x & o hell nah & 23 & 25 \\ \hline % \hline for horizontal line
+x & o hell nah o hell nah o hell nah o hell nah o hell nah o hell nah o hell nah o hell nah o hell nah o hell nah o hell nah o hell nah o hell nah o hell nah o hell nah o hell nah o hell nah o hell nah  & 23 & 25 \\ \hline % \hline for horizontal line
+\end{tabular}
+\end{table}
+
+
+Arrays:
+\begin{align}
+5x^2-9=x+3\\
+5x^2-x-12=0
+\end{align}
+
+
+\begin{align*}
+5x^2-9&=x+3\\
+5x^2-x-12&=0\\
+&=12+x-5x^2
+\end{align*}
+
+
+\begin{align}
+5x^2-9=x+3\\
+5x^2-x-12=0
+\end{align}
+
+
+
+
+
+
+\end{document}

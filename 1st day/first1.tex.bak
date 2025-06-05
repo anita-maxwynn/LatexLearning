@@ -1,0 +1,38 @@
+\documentclass[11pt]{article}
+
+\begin{document}
+Hello! This is my first \LaTeX\ document.\\%soft line change
+2nd line
+
+3rd line  %hard line change
+
+And the equation is $A(x)=x^2+2x+1$\\ % in the same line
+And the equation is $$A(x)=x^2+2x+1$$ % in a separated line
+Hell yeah bitch
+
+
+% Mathematical notations
+for power \\
+$x^23+3$ as you can see the 3 is not going upward
+solution\\
+$x^{23}+3$
+
+%let's practice
+$x^{x^{x^3+2x+1}+x^{3x+1}}$\\
+Subscript\\
+$H_2O$\\
+$H_{23}$\\
+$a_1,a_2,a_3,\ldots,a_100$\\
+
+Greek Letters\\
+$\pi$ \\ $\Pi$\\
+Geometric\\
+$\sin x$\\
+$\sinh x$\\
+$\csc \theta$\\
+$\sqrt[3]{25}$\\
+
+$\fact{2}{3}{}5
+
+
+\end{document}
