@@ -1,12 +1,19 @@
 \documentclass[12pt]{article}
-\usepackage{fullpage} %for 1 inch margin
-
+%\usepackage{fullpage} %for 1 inch margin
+\usepackage{amsfonts,amssymb,amsmath}
+\usepackage{graphicx}
+\usepackage{float}
 \title{macros and packages}
 
+\def \eq1{y=\dfrac{x}{3x^2+x+1}}
 
 \begin{document}
 
-vdsvsvd
+$\eq1$ this is how we define macros
 
-
+\section*{to add picture}
+\begin{figure}[H]
+\includegraphics[scale=0.5]{Beako_Reading_The_TypeScript_Programming_Language}
+\caption{this is caption}
+\end{figure}
 \end{document}
